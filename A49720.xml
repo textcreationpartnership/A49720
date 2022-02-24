@@ -1,0 +1,519 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caledonias covenant, or, Ane panegyrick to the world vvherein is brieflie set doune the trew caus and occasioune of the present trubles of the kingdome of Scotland / by G. L.</title>
+            <author>Lauder, George, b. ca. 1600.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A49720</idno>
+            <idno type="STC">Wing L603</idno>
+            <idno type="STC">ESTC R1239</idno>
+            <idno type="EEBO-CITATION">13429216</idno>
+            <idno type="OCLC">ocm 13429216</idno>
+            <idno type="VID">99511</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A49720)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 99511)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 461:32)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Caledonias covenant, or, Ane panegyrick to the world vvherein is brieflie set doune the trew caus and occasioune of the present trubles of the kingdome of Scotland / by G. L.</title>
+                  <author>Lauder, George, b. ca. 1600.</author>
+               </titleStmt>
+               <extent>[12] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.]</publisher>
+                  <pubPlace>[Edinburgh? :</pubPlace>
+                  <date>1641.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Scotland --  Politics and government --  1625-1649.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-11</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2009-11</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:99511:1"/>
+            <pb facs="tcp:99511:1" rendition="simple:additions"/>
+            <p>CALEDONIAS COVENANT.</p>
+            <p>OR ANE PANEGYRICK TO THE WORLD.</p>
+            <p>VVherin is brieflie ſet doune the trew caus and occaſioune of the preſent trubles of the kingdome of SCOTLAND.</p>
+            <p>By G. L.</p>
+            <q>
+               <l>They haue oftentimes afflicted me from my youth: But they could not prevaile againſt me.</l>
+               <l>The plowers plowed vpon my backe and made long furrowes.</l>
+               <l>But the righteous lord hath cut the cordes of the wicked.</l>
+            </q>
+            <p>PRINTED IN THE YEAR M.DC.XLI.</p>
+         </div>
+      </front>
+      <body>
+         <div type="panegyric">
+            <pb facs="tcp:99511:2"/>
+            <head>CALEDONIAS COVENANT A PANEGYRICK TO THE WORLDE.</head>
+            <lg>
+               <l>HEauens liſten, Earth beare Witnes, Time recorde</l>
+               <l>My heauy Grieffe, and Speedy help affoard,</l>
+               <l>My ſoule half ſunk in ſad diſpaire doth faint,</l>
+               <l>I ſcarce haue breath to ſighe out my Complaint:</l>
+               <l>My moiſtned Eyes with weeping almoſt blinde</l>
+               <l>And parched tounge whoſe Cries no pittie finde</l>
+               <l>Now worne with woaes and wroungs without reliefe</l>
+               <l>At laſt giue over hope and yeeld to Griefe.</l>
+            </lg>
+            <lg>
+               <l>Yet that the world may know my wretched Cace,</l>
+               <l>And where Tales runne Trueth may at length take place,</l>
+               <l>To all good Chriſtians, members of that head</l>
+               <l>
+                  <note place="margin">Informa<g ref="char:EOLhyphen"/>tions and Proteſta<g ref="char:EOLhyphen"/>tions.</note>Whoſe Cauſe, and Churches priviledge I plead,</l>
+               <l>And in whoſe preſence heere I doe proteſt</l>
+               <l>To haue no other ayme but peace and reſt,</l>
+               <l>Relligions puritie, the Goſpels light</l>
+               <l>To ſhine agayne through Superſtitions night,</l>
+               <l>I heere rip up my breſt that euery Eye</l>
+               <l>Not bleard with Paſſion, may my heart deſcrie,</l>
+               <l>And all unpartiall Eares may rightlie ponder</l>
+               <l>The load of wroungs which I lie groaning under.</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">The Refor<g ref="char:EOLhyphen"/>mation.</note>When from the dauning of the Goſpels day,</l>
+               <l>The ſunne of Trueth (long ſett) did firſt diſplay</l>
+               <l>His glorious beames, and gild the glowing Eaſt;</l>
+               <l>The light ſo dazel'd Babels blindfold beaſt</l>
+               <l>
+                  <pb facs="tcp:99511:2"/>That like a roaring Lion mad hee ranne.</l>
+               <l>And caſt falſe clouds of ſcorne t'ecclypſt againe:</l>
+               <l>Yea all that worship'd it with humbled heart</l>
+               <l>Of his fierce rage did finde the fierie ſmart,<note place="margin">The mona<g ref="char:EOLhyphen"/>ſteries.</note>
+               </l>
+               <l>The darkned dens of Ignorance, where ſat</l>
+               <l>Blind Hereſie and bowd to knew not what,</l>
+               <l>To be diſcouered ſpewd there ſpite at heauen</l>
+               <l>For feare there dwellars should from thenc be driven:</l>
+               <l>Rome ragd to ſee a Corner of the worlde</l>
+               <l>Where from his thron his triple Croun was hurl'd,</l>
+               <l>And I was then with candle, book, and bell</l>
+               <l>By Antichriſt condemnd to loweſt hell;</l>
+               <l>The bleſſed martyrs that his threats withſtood</l>
+               <l>And ſeald the glorious goſpell with ther blood</l>
+               <l>With heauenly courage and with conſtant hop</l>
+               <l>Preachd Chriſt aboue the pardons of the pop,<note place="margin">VViſhart, and others burnt by Cardinal Betoune.</note>
+               </l>
+               <l>For which calld Hereticks, ther liues did pay:</l>
+               <l>And burnd to aſhes drenchd in blood, did lay</l>
+               <l>The Churches firme foundation, which by time</l>
+               <l>Did to a fayre and beauteous temple climbe,</l>
+               <l>When God ſet open the eyes of Prince and peeres</l>
+               <l>And made the Goſpells trumpet pierce the eares</l>
+               <l>Of deafned Idoll-worſhippers, and call</l>
+               <l>To mercy penitent beleeuers all,</l>
+               <l>The miſt clear'd up, the maſſe did vanishe quite</l>
+               <l>At the faire ſunſhine of the Goſpels light,</l>
+               <l>Then ignorance and ſuperſtition fled</l>
+               <l>To hell agayne where they were hathd and bred,<note place="margin">The Cardi<g ref="char:EOLhyphen"/>nall, once killed all his ſectators vaniſhed.</note>
+               </l>
+               <l>Proud prieſts, that on the ſilly people prey'd</l>
+               <l>Whil the croſſe ſtaffe abou the ſcepter ſweyd,</l>
+               <l>There knauerie ſeen did melt away for ſhame</l>
+               <l>
+                  <pb facs="tcp:99511:3"/>And ſimple ſhepheards in there places came,</l>
+               <l>That was my golden age, then loue and feare</l>
+               <l>Of God throughout all Scotland did appeare,</l>
+               <l>
+                  <note place="margin">King <hi>IAMES</hi> made the couenant and com<g ref="char:EOLhyphen"/>manded all the contrye to ſigne it.</note>My prince a patterne of true pietie,</l>
+               <l>That after ages his great zeal might ſee,</l>
+               <l>To Gods pure worſhip, with a heart vpright</l>
+               <l>His ſubjects and himſelfe did faſt vnite</l>
+               <l>By couenant ſubſcriv'd and ſworne with God</l>
+               <l>On higheſt payne of heavieſt plague and rod,</l>
+               <l>All ſuperſtition, poperie, hereſies,</l>
+               <l>Epiſcopall authoritie, Hierarchyes,</l>
+               <l>Will worſhip and what ere was then rejected</l>
+               <l>As hurtfull, or which had the church infected:</l>
+               <l>With heart and hand with life eſtate and might</l>
+               <l>Still to withſtand while they could ſtand and fight.</l>
+               <l>No prelat then preſum'd before another;</l>
+               <l>Nor calld him lord whom office made his brother.</l>
+               <l>A Biſhop and a bugge beare were all one,</l>
+               <l>And meerly names there lordſhips were not knoune,</l>
+               <l>Vntill the time great JAMES, our Salomon</l>
+               <l>Changd Scotland England into ALBION.</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Q. Elza<g ref="char:EOLhyphen"/>beth.</note>ELIZA dead, Sabrina Trent and Thames,</l>
+               <l>Fell proſtrate at the feet of royale JAMES,</l>
+               <l>There peeres in pompe and ſtate louwe homadge made</l>
+               <l>There prelates of the church did ſtile him head:</l>
+               <l>And put themſelues next him that rank to holde</l>
+               <l>In Parlament and State they had of olde,</l>
+               <l>The gracious prince was pleaſd with what hee found,</l>
+               <l>Nor did hee change the leaſt thing being cround,</l>
+               <l>But for to make <hi>both one</hi> as was his ayme</l>
+               <l>
+                  <note place="margin">The vnion.</note>Hee laboured to make them <hi>both the ſame,</hi>
+               </l>
+               <l>
+                  <pb facs="tcp:99511:3"/>The greatteſt ods was in the Church indeed</l>
+               <l>Which to make euen did mee much miſcheeffe breed,</l>
+               <l>
+                  <hi>Aſpiring prieſts</hi> pufft up with vaine ambition,</l>
+               <l>Tolde Him this Church was of a baſe Condition,</l>
+               <l>When euery priuat preacher durſt reproue</l>
+               <l>The Prince Himſelfe, whom God had ſett aboue</l>
+               <l>The reach of cenſure, and 't would better ſute</l>
+               <l>The Kingdomes honor, if the King would do't</l>
+               <l>To ſettle Biſhops, who should haue the Charge</l>
+               <l>Of Spirituall things, would Hee there power enlarge</l>
+               <l>And authoriſe Them, with his Royalle ayde;</l>
+               <l>Both Prince and prieſt should be feard and obeyd:<note place="margin">Bishops eſtablished.</note>
+               </l>
+               <l>Then firſt began my miſerie alace!</l>
+               <l>And pride did from the Church Deuotion chaſe,</l>
+               <l>A jealous Aemulation ſtreight way filled</l>
+               <l>My newmade Biſhops breaſts, who all aſpired</l>
+               <l>To be as great as Romes great beaſt in pouer:</l>
+               <l>And gouerne euerie ſtate, for all wer lower.</l>
+               <l>The mitre, thoughe it brought no Monarchie,</l>
+               <l>Yet was an Enſeigne of there Hierarchie.</l>
+               <l>All publicque charges of the croune and State</l>
+               <l>They eyther did poſſes or aymed at,<note place="margin">Meluin; and others who vvere banished. The firſt ſcots B<hi rend="sup">s.</hi> Conſecrated in England took there oathes to be conforme to the Church of England, mutatis mutandis Stovve.</note>
+               </l>
+               <l>Which made my Zealous <hi>Paſtours</hi> to crie out</l>
+               <l>Againſt thoſe wolfes who cloſely went about,</l>
+               <l>To ſlave the church to there Imperious will,</l>
+               <l>Who had combind with England; to fulfill</l>
+               <l>All there deſires to compaſſe there deſignes:</l>
+               <l>Wherfor they banishd all my beſt diuynes,</l>
+               <l>Empriſond, ſilencd, whilſt might daunted right,</l>
+               <l>And Souueraignitie for them did fight.</l>
+               <l>The neighbour world and churche did shelter giue,</l>
+               <l>
+                  <pb facs="tcp:99511:4"/>When perſecution would nott lett them liue</l>
+               <l>In peace at home, Thus clad with Royale armes,</l>
+               <l>Tranſported from themſelues, bewitchd with Charmes</l>
+               <l>Of Greatnes; and that highe Triumphant ſtate</l>
+               <l>In which the Neighbour Englands Prelates ſate,</l>
+               <l>(Though great the diſproportion was in all</l>
+               <l>As from the shrub unto the Cedar tall,)</l>
+               <l>My pettie prieſts would all be Popes at once</l>
+               <l>And (Baſans bulls) into there bulles denounce</l>
+               <l>Deſtruction, to all ſuch as durſt withſtand</l>
+               <l>Th'uſurped pouer of Prelates in Command,</l>
+               <l>
+                  <note place="margin">At the laſt comming of K. Iames into Scot<g ref="char:EOLhyphen"/>land. <hi>An. 1617.</hi>
+                  </note>The firſt aſſault they gaue was all in vaine</l>
+               <l>Ther growing pride was ſoon repulſd againe,</l>
+               <l>Though it had no intention but to bring</l>
+               <l>Conformitie in Church and everie thing</l>
+               <l>That England had retaynd, reforming firſt</l>
+               <l>Thoſe errours which Rome foſtered had and nurſt.</l>
+               <l>My people wer mor sharpely gone to worke</l>
+               <l>And had found out what euer hid did lurke</l>
+               <l>Into the deapeſt Corners moſt obſcure;</l>
+               <l>And what could not the light and touch endure</l>
+               <l>As falſe was caſt away; The King ſurceaſt</l>
+               <l>In wiſe foreſight and would not haue it preſt</l>
+               <l>Vpon mee more, when hee the danger ſawe</l>
+               <l>Which ſuch an innovation on could drawe,</l>
+               <l>Heauen call'd him hence vnto a greater Croune</l>
+               <l>And in his Chayre our Mightie CHARLES ſate doune,</l>
+               <l>Thoſe Sycophants empoyſoning his Eares,</l>
+               <l>(While thruſting in betuix Him and His Peeres)</l>
+               <l>
+                  <note place="margin">Vbi nullus Epiſcopus ibi nullus Rex.</note>A damned Maxime mad Him vnderſtand</l>
+               <l>
+                  <hi>No Biſchop, then no King into a land:</hi>
+               </l>
+               <l>
+                  <pb facs="tcp:99511:4"/>And which was worſe, conſpiring with the whoore</l>
+               <l>Whoſe foule embraces wee caſt off before</l>
+               <l>Aſſiſted with the <hi>Prime of Englands prieſts</hi>
+               </l>
+               <l>They fram'd a ſeruice booke, my ſoule deteſts:<note place="margin">The ſcottiſh ſeruiſche booke.</note>
+               </l>
+               <l>Which I ſhould firſt receaue and make the way</l>
+               <l>The ſoules of all great Brittayne to betray,</l>
+               <l>For Ireland as a page muſt followe ſtill</l>
+               <l>And ſubject be vnto her conquerours will.</l>
+               <l>That ſtood againſt my ſtomacke I confeſſe</l>
+               <l>As't was againſt the treuth I did profeſſe.</l>
+               <l>God rouſd my conſcience and did call mee up</l>
+               <l>The courſe of poperie in the ſource to ſtop,</l>
+               <l>And call'd to mynd the couenant I hade made</l>
+               <l>With him, when I from ſlauerie firſt was fred,<note place="margin">The coue<g ref="char:EOLhyphen"/>nant rene<g ref="char:EOLhyphen"/>vved.</note>
+               </l>
+               <l>Never to return to <hi>Rome<g ref="char:punc">▪</g>
+                  </hi> my ſoule did bleed</l>
+               <l>When I reneend that oath, my teares did plead</l>
+               <l>For pittie at my prince, and I beſought</l>
+               <l>No ſtranger rites might in my church be brought.</l>
+               <l>But all in vaine, what ever I beggd' or pray'd</l>
+               <l>I was a traytour and a rebell made,<note place="margin">The procla<g ref="char:EOLhyphen"/>mations,</note>
+               </l>
+               <l>That durſt oppoſe whateuer was found good</l>
+               <l>By thoſe who in the church did what they wold,</l>
+               <l>All my petitions were caſt back with ſcorne,</l>
+               <l>And ere my prince had ſeen them, rent and torne;</l>
+               <l>Great armyes raiſd by ſea and land, to fall</l>
+               <l>At once upon mee, neither durſt I call</l>
+               <l>To God or man for helpe, and what I did</l>
+               <l>Was treaſon ſtill and miſinterpreted.</l>
+               <l>The ſtrongeſt forts I had for my defence</l>
+               <l>For my deſtruction arm'd,<note place="margin">Edenburgh and Dun<g ref="char:EOLhyphen"/>bartan.</note> to giue offence</l>
+               <l>And make mee guiltie, were with ſtrangers clad,</l>
+               <l>
+                  <pb facs="tcp:99511:5"/>All warrelike engines for invaſion made</l>
+               <l>Againſt mee dreſt, yet did I not forbeare,</l>
+               <l>To praye and ſue to thoſe that would not heare,</l>
+               <l>When all that I could thinke was try'd invaine,</l>
+               <l>And I had ſtill my labour for my payne.</l>
+               <l>Danger did threaten and at laſt drew neare</l>
+               <l>
+                  <note place="margin">Duns len<g ref="char:EOLhyphen"/>ger.</note>Then in myne oun defenc I arm'd with feare,</l>
+               <l>To ſaue my life, as nature doth allowe,</l>
+               <l>Nor did I paſſe my bounds as all men knowe,</l>
+               <l>Mine enemyes amazed to ſee mee ſtand</l>
+               <l>Vpon my border ſtill with ſword in hand,</l>
+               <l>When they could not engadge mee into blood</l>
+               <l>
+                  <note place="margin">Pacification at heretick.</note>And found that I but for my freedome ſtood</l>
+               <l>Of church and contrye, vnder ſhow of peace</l>
+               <l>Betrayd mee falſely with a faynd embrace:</l>
+               <l>Whilſt what was promiſd was not truely meant.</l>
+               <l>Nor durſt I craue, for feare of diſcontent.</l>
+               <l>There maine intentions were but to beguile</l>
+               <l>My raſhe beleeffe: and foolle mee for a while,</l>
+               <l>Till they could take new breath and ſtrength againe</l>
+               <l>When I had layd doune armes: and fall amayne</l>
+               <l>With all there might upon mee vnaware,</l>
+               <l>For which, a freſh they Parlaments prepare</l>
+               <l>
+                  <note place="margin">In England and Ireland</note>With monneys to ſuplie ther miſcheefs want,</l>
+               <l>And aſk farre more then free conſent will graunt.</l>
+               <l>To neighbour princes I am pourtrayd blacke</l>
+               <l>My cauſe and mee both hatefull for to make,</l>
+               <l>Newe thunders forg'd, the King embark'd againe</l>
+               <l>In prieſts revenge, till Scotland all be ſlayne</l>
+               <l>And <hi>Laud be pope of Brittaine,</hi> t'was then time</l>
+               <l>For mee (whoes zeall to Gods houſe was a crime)</l>
+               <l>
+                  <pb facs="tcp:99511:5"/>To looke about, and if I could prevent</l>
+               <l>The threatning Tempeſt which was imminent.</l>
+            </lg>
+            <lg>
+               <l>God great and iuſt who tries the heart and reins</l>
+               <l>Is witneſſe, if to warre my heart enclynes,<note place="margin">Entry into England.</note>
+               </l>
+               <l>Or if I meane to England harme at all:</l>
+               <l>But only banishd Iuſtice to recall,</l>
+               <l>And haue Relligion ſett al Libertie,</l>
+               <l>A Captiue handmaid late to Tyrannie,</l>
+               <l>
+                  <hi>Tvved</hi> ſawe my Teares and knowes I did not paſſ</l>
+               <l>His ſtreame to prey or ſpoyle, but that I was</l>
+               <l>Conſtraynd in ſuertye to march on my way</l>
+               <l>And ſeeke redreſſe, for what I took to pay:<note place="margin">The reaſons and cari<g ref="char:EOLhyphen"/>adge of it.</note>
+               </l>
+               <l>To offer no man wrounge but freindly ayde.</l>
+               <l>Nor ever meant my neighbours to invade:</l>
+               <l>The want of juſtice, breach of promiſe paſt.</l>
+               <l>Relligion ſlau'd, and vtter ruyne laſt</l>
+               <l>In ſuch extreames made need a law to mee;</l>
+               <l>To ſeeke my ſafetie and her libertie.</l>
+               <l>My firſt encounter when I paſt the <hi>Tine</hi>
+               </l>
+               <l>What blood was ſpilt it was no fault of myne,</l>
+               <l>And heavens are witnes I did never intend</l>
+               <l>In quiet paſſadge England to offend,</l>
+               <l>But with all loue and freindship joyntlie goe</l>
+               <l>In Common cauſe to find the Common foe,</l>
+               <l>And to remoue the wicked from the King</l>
+               <l>Whoſe malice ſeekes on both a ſcourge to bring,</l>
+               <l>For thoughe I ſpoke shee thought no leſſe then I:</l>
+               <l>But durſt not shaik the Church authoritie:</l>
+               <l>And rather chooſ'd in ſilence for to ſuffer</l>
+               <l>Then have her noſe and eares to be cutt off her,</l>
+               <l>As many had bein ſeru'd by th' Highe Co<g ref="char:cmbAbbrStroke">̄</g>miſſion.</l>
+               <l>
+                  <pb facs="tcp:99511:6"/>Neare couſine to the Spaniſhe Inquiſition.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Newcaſtle</hi> found no force but ſawe us freynds,</l>
+               <l>
+                  <note place="margin">Balcanquell</note>So <hi>Durrham</hi> did, (whoſe <hi>Deanes</hi> vnluckie ends</l>
+               <l>A prouidence prevented, and will pay</l>
+               <l>His lies with there rewarde ſome happie day)</l>
+               <l>And when command to march no further, came,</l>
+               <l>In hope of hearing I obeyd the ſame,</l>
+               <l>Till Englands Parlament ſhould weell conſidder</l>
+               <l>The juſtice of that cauſe that brought mee hither,</l>
+               <l>And well examine if I haue done well;</l>
+               <l>Or with hoſtilitie ſhould mee expell.</l>
+               <l>That ſacred ſenate hauing leaue to ſpeake,</l>
+               <l>And of all ſtate abuſe the ſource to ſeeke:</l>
+               <l>
+                  <note place="margin">The L. De<g ref="char:EOLhyphen"/>putie of Irland and the Arch<g ref="char:EOLhyphen"/>biſhop of Canterbury</note>Found in her boſome and about the Prince</l>
+               <l>Thoſe vipers whom highe treaſon doth convince.</l>
+               <l>Thoſe factious firebrands that ſo falſlie deale</l>
+               <l>With God and King in church and common weale</l>
+               <l>Shall of ther merite finde the earned meede;</l>
+               <l>Farre better they ſhould then tuo nations bleed.</l>
+               <l>Thoſe that haue ſcapt by flight to forraine lands;</l>
+               <l>A power ſhall reach which ouer all commands,</l>
+               <l>And giue the juſt reward as it is due</l>
+               <l>
+                  <note place="margin">The Scottiſh Biſhops and other cor<g ref="char:EOLhyphen"/>rupted Sta<g ref="char:EOLhyphen"/>teſmen,</note>
+                  <hi>Ther's no protection when the heauens purſue.</hi>
+               </l>
+               <l>Thoſe monſters vnto whom I once lent birth</l>
+               <l>Become my bane, a ſcandale to the earth;</l>
+               <l>Though now at court a time they ſhelterd bee</l>
+               <l>With guilty conſcience for there wroungs to mee:</l>
+               <l>A day will come I hope when they ſhall finde</l>
+               <l>There miſcheeffs merite in the higheſt kinde.</l>
+               <l>Will CHARLES but leaue them to my Parlament</l>
+               <l>Ther they ſhall haue deſerued puniſhment,</l>
+               <l>
+                  <pb facs="tcp:99511:6"/>So ſhall great Brittaine proſper, and his raigne</l>
+               <l>Bring to this iſle the golden age agayne.</l>
+            </lg>
+            <lg>
+               <l>But ah! my feares forbid to hope ſo much:<note place="margin">The Spa<g ref="char:EOLhyphen"/>nyſhe fa<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ion.</note>
+               </l>
+               <l>The ſubtile Spaniſhe ſerpents craft is ſuch,</l>
+               <l>That all our aymes houeuer well begunne</l>
+               <l>Euen in the budd are preſently vndone.</l>
+               <l>That wretched golde, that farre fetchd Indian droſſ</l>
+               <l>All our attempts and good deſignes doth croſſ.</l>
+               <l>Corruption is a court diſeaſe become,</l>
+               <l>And takes no doctors counſaill but from Rome;</l>
+               <l>Which neuer whollie cures the lame or blinde</l>
+               <l>But alwayes there remaynes ſome dreggs behinde</l>
+               <l>Which like the fire in aſhes hid breaks out</l>
+               <l>And of a ſudden kindleth all about:</l>
+               <l>Though for a time it lye as cloſe as dead</l>
+               <l>I feare that foule infection forth ſhall ſpread:</l>
+               <l>Vnles it pleaſe that God by whom kings raigne</l>
+               <l>To giue vs warre againſt both Rome and Spaine:</l>
+               <l>Which wee haue now iuſt cauſe to vndertake</l>
+               <l>For CHARLES his ſiſter and his nephewes ſake.<note place="margin">Q. of Bo<g ref="char:EOLhyphen"/>heme.</note>
+               </l>
+               <l>But wee muſt wait with prayers on our God</l>
+               <l>Who'il giue us peace at home and warre abroad.</l>
+            </lg>
+            <lg>
+               <l>Heer like the hart that panteth for the ſpring,</l>
+               <l>My ſoule awaits good tidings from my King.</l>
+               <l>My prayers are the weapons which I uſe</l>
+               <l>That heaven will in his ſacred breaſt infuſe</l>
+               <l>True wiſedome, that his reaſons eyes may ſie,</l>
+               <l>Through all the clouds of ſpyte and flatterie</l>
+               <l>My upright heart, the churches ſore oppreſſion,</l>
+               <l>And ſcan the trueth of euery mouths confeſſion,</l>
+               <l>Reward the good, rebuke the reprobate,</l>
+               <l>
+                  <pb facs="tcp:99511:7"/>Remeed the greevances of church and ſtate,</l>
+               <l>Maintayne the Goſpell in its puritie,</l>
+               <l>Remoue falſe Doctors, root out hereſie,</l>
+               <l>Lay doun good lawes, doe juſtice vnto all,</l>
+               <l>Curb vice, without reſpect in great and ſmall,</l>
+               <l>That thoſe whom God hath joyn'd, may vnder him</l>
+               <l>And his, liue happye to the end of Time.</l>
+            </lg>
+            <lg>
+               <l>This is my heartye wiſhe and prayer ſtill:</l>
+               <l>Which heauen will heare I hope and ſoone fulfill,</l>
+               <l>To ſend mee home a ſong of joye to ſing</l>
+               <l>And pray for fayths defender, CHARLES the King.</l>
+            </lg>
+            <epigraph>
+               <q>SVNT ARTIBVS ARMA DECORI.</q>
+            </epigraph>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:99511:7" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
